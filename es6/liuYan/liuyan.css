@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Times New Roman", Georgia, Serif，"微软雅黑";
+}
+
+input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: normal;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+#box {
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.box1,
+.box2 {
+    height: 100%;
+    width: 100%;
+}
+
+.name {
+    height: 4%;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    display: inline-block;
+    text-indent: 2rem;
+    font-size: 0.8rem;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.text {
+    height: 15%;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 1%;
+    display: inline-block;
+    border-radius: 0.5rem;
+    text-indent: 2rem;
+    margin-left: 5.7%;
+    font-size: 0.8rem;
+}
+
+.btnSubmit {
+    width: 9%;
+    height: 3.5%;
+    border-radius: 0.3rem;
+    border: 1px solid #53a756;
+    background: #53a756;
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.list {
+    width: 90%;
+    margin-left: 5%;
+    height: 30%;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid #3987cb;
+    border-radius: 0.3rem;
+    margin-top: 5%;
+    margin-left: 0;
+}
+
+.biaoTi {
+    background: #3987cb;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    text-indent: 2rem;
+}
+
+.list1 {
+    width: 94%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.list1>li {
+    border: 1px solid #ccc;
+    color: #000;
+    height: 2rem;
+    line-height: 2rem;
+    text-indent: 1rem;
+}
